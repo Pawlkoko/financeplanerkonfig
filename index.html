@@ -115,7 +115,7 @@
         if (response.ok) {
           // ukryj formularz, pokaż potwierdzenie
           document.getElementById("config-form").style.display = "none";
-          document.getElementById("confirmation").style.display = "block";
+          window.location.href = "/kolejny-krok.html";
         } else {
           alert("Coś poszło nie tak.");
         }
